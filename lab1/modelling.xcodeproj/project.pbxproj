@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D158FAC527DC8F4D0019E0FF /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158FAC427DC8F4D0019E0FF /* Plot.swift */; };
 		D19B44C927D9F08D0072C713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44C827D9F08D0072C713 /* AppDelegate.swift */; };
 		D19B44CB27D9F08D0072C713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44CA27D9F08D0072C713 /* ContentView.swift */; };
 		D19B44CD27D9F0900072C713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19B44CC27D9F0900072C713 /* Assets.xcassets */; };
 		D19B44D027D9F0900072C713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19B44CF27D9F0900072C713 /* Preview Assets.xcassets */; };
 		D19B44D327D9F0900072C713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19B44D127D9F0900072C713 /* Main.storyboard */; };
+		D19B44DE27DA11E00072C713 /* swift_algo in Frameworks */ = {isa = PBXBuildFile; productRef = D19B44DD27DA11E00072C713 /* swift_algo */; };
+		D19B44E127DA17560072C713 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44E027DA17560072C713 /* Types.swift */; };
+		D19B44E427DA1A020072C713 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44E327DA1A020072C713 /* Table.swift */; };
+		D19B44E727DB30EE0072C713 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44E627DB30EE0072C713 /* Input.swift */; };
+		D19B44EA27DB560B0072C713 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B44E927DB560B0072C713 /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D158FAC427DC8F4D0019E0FF /* Plot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
 		D19B44C527D9F08D0072C713 /* modelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19B44C827D9F08D0072C713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D19B44CA27D9F08D0072C713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +30,10 @@
 		D19B44D227D9F0900072C713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D19B44D427D9F0900072C713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19B44D527D9F0900072C713 /* modelling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = modelling.entitlements; sourceTree = "<group>"; };
+		D19B44E027DA17560072C713 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		D19B44E327DA1A020072C713 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		D19B44E627DB30EE0072C713 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		D19B44E927DB560B0072C713 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19B44DE27DA11E00072C713 /* swift_algo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,11 @@
 				D19B44D427D9F0900072C713 /* Info.plist */,
 				D19B44D527D9F0900072C713 /* modelling.entitlements */,
 				D19B44CE27D9F0900072C713 /* Preview Content */,
+				D19B44E027DA17560072C713 /* Types.swift */,
+				D19B44E327DA1A020072C713 /* Table.swift */,
+				D19B44E627DB30EE0072C713 /* Input.swift */,
+				D19B44E927DB560B0072C713 /* Math.swift */,
+				D158FAC427DC8F4D0019E0FF /* Plot.swift */,
 			);
 			path = modelling;
 			sourceTree = "<group>";
@@ -90,6 +107,9 @@
 			dependencies = (
 			);
 			name = modelling;
+			packageProductDependencies = (
+				D19B44DD27DA11E00072C713 /* swift_algo */,
+			);
 			productName = modelling;
 			productReference = D19B44C527D9F08D0072C713 /* modelling.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +137,9 @@
 				Base,
 			);
 			mainGroup = D19B44BC27D9F08D0072C713;
+			packageReferences = (
+				D19B44DC27DA11E00072C713 /* XCRemoteSwiftPackageReference "swift-algo" */,
+			);
 			productRefGroup = D19B44C627D9F08D0072C713 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19B44E727DB30EE0072C713 /* Input.swift in Sources */,
+				D19B44E127DA17560072C713 /* Types.swift in Sources */,
 				D19B44CB27D9F08D0072C713 /* ContentView.swift in Sources */,
+				D158FAC527DC8F4D0019E0FF /* Plot.swift in Sources */,
+				D19B44E427DA1A020072C713 /* Table.swift in Sources */,
 				D19B44C927D9F08D0072C713 /* AppDelegate.swift in Sources */,
+				D19B44EA27DB560B0072C713 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D19B44DC27DA11E00072C713 /* XCRemoteSwiftPackageReference "swift-algo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rilord/swift-algo";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D19B44DD27DA11E00072C713 /* swift_algo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19B44DC27DA11E00072C713 /* XCRemoteSwiftPackageReference "swift-algo" */;
+			productName = swift_algo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D19B44BD27D9F08D0072C713 /* Project object */;
 }

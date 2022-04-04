@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift_algo",
+        "repositoryURL": "https://github.com/Rilord/swift-algo",
+        "state": {
+          "branch": "main",
+          "revision": "0425425e05f6ea15d42b1ae98448d2210923b00b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
